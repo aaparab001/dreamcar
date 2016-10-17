@@ -1,0 +1,128 @@
+   body{
+    background-color:#ffffff;
+   }
+  .wrapper {
+    background-color: #926262;
+    border-color: #bbb;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+   table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width: 100%;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 15px;
+        padding-top: 10px; 
+        padding-bottom:10px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+
+    th {
+        background-color: #4CBB50;
+        color: white;
+    }
+
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 1000px;
+	  align: center;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 200px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+  .panel {
+      border-radius:8px !important;
+      transition: box-shadow 1s;
+  }
+  .panel a{
+      text-decoration:none;
+
+  }
+  .panel:hover {
+      box-shadow: 5px 5px 40px rgba(0,0,0, .5);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #54C598 !important;
+      color: #54C598;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #54C598 !important;
+      padding: 5px;
+      border-bottom: 5px solid transparent;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      max-height: 80px;
+  }
+  .panel-footer {
+      background-color: #A1E4D1 !important;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border: 1px solid #f4511e;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #807880;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 0px 0;
+      background-color: #6EAFFF;
+      color: #fff;
+  }
+  .mydiv {  
+      margin: 0 auto;
+      width: 70%;
+  }
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+} 
+    .navbar {
+      margin-bottom: 80px;
+      border-radius: 0;
+      background-color: #000000;
+      color: #ffffff;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      background-color: #FFFF00;
+      color: #5A6362;
+    
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
